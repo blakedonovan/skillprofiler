@@ -45,7 +45,19 @@
 </template>
 
 <script>
+
+
   export default {
+
+ setup() {
+
+
+    return {
+      // you can return the whole store instance to use it in the template
+    
+    }
+  },
+
     data: () => ({
       valid: false,
       firstname: '',
