@@ -52,7 +52,7 @@ password:null
   },
 
   methods:{
-
+// unnecessary if state action called directly
     setUserPw(){
       const pw = this.password
 
